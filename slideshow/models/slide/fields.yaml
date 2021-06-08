@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    title:
+        label: Title
+        type: text
+    subtitle:
+        label: Subtitle
+        type: textarea
+    is_visible:
+        label: Visível
+        type: switch
+        span: left
+

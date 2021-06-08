@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Slide
+
+# Model Form Field configuration
+form: $/artsite/slideshow/models/slide/fields.yaml
+
+# Model Class name
+modelClass: Artsite\SlideShow\Models\Slide
+
+# Default redirect location
+defaultRedirect: artsite/slideshow/slides
+
+# Create page
+create:
+    title: Create Slide
+    redirect: artsite/slideshow/slides/update/:id
+    redirectClose: artsite/slideshow/slides
+
+# Update page
+update:
+    title: Edit Slide
+    redirect: artsite/slideshow/slides
+    redirectClose: artsite/slideshow/slides
+
+# Preview page
+preview:
+    title: Preview Slide

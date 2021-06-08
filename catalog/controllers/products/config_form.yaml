@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Product
+
+# Model Form Field configuration
+form: $/artsite/catalog/models/product/fields.yaml
+
+# Model Class name
+modelClass: Artsite\Catalog\Models\Product
+
+# Default redirect location
+defaultRedirect: artsite/catalog/products
+
+# Create page
+create:
+    title: Create Product
+    redirect: artsite/catalog/products/update/:id
+    redirectClose: artsite/catalog/products
+
+# Update page
+update:
+    title: Edit Product
+    redirect: artsite/catalog/products
+    redirectClose: artsite/catalog/products
+
+# Preview page
+preview:
+    title: Preview Product

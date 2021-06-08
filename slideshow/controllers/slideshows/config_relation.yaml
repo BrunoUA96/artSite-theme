@@ -1,0 +1,12 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+slides:
+    label: Slide
+    manage:
+        form: $/artsite/slideshow/models/slide/fields.yaml
+        list: $/artsite/slideshow/models/slide/columns.yaml
+    view:
+        list: $/artsite/slideshow/models/slide/columns.yaml
+        toolbarButtons: create|delete

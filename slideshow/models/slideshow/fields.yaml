@@ -1,0 +1,31 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    title:
+        label: Title
+        type: text
+        span: auto
+    theme:
+        label: Theme
+        type: dropdown
+        span: auto
+        emptyOption: Selecione um theme
+    page:
+        label: Page
+        type: dropdown
+        span: auto
+        dependsOn: theme
+        emptyOption: Selecione uma página
+    is_visible:
+        label: Visible
+        type: switch
+        span: left
+    logo:
+        label: Logo
+        type: fileupload
+        mode: image
+        imageHeight: 200
+        imageWeight: 200
+   

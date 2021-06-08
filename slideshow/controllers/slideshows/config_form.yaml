@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Banner
+
+# Model Form Field configuration
+form: $/artsite/slideshow/models/slideshow/fields.yaml
+
+# Model Class name
+modelClass: Artsite\SlideShow\Models\SlideShow
+
+# Default redirect location
+defaultRedirect: artsite/slideshow/slideshows
+
+# Create page
+create:
+    title: Create Slideshow
+    redirect: artsite/slideshow/slideshows/update/:id
+    redirectClose: artsite/slideshow/slideshows
+
+# Update page
+update:
+    title: Edit Banner
+    redirect: artsite/slideshow/slideshows
+    redirectClose: artsite/slideshow/slideshows
+
+# Preview page
+preview:
+    title: Preview Banner
