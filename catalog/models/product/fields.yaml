@@ -5,7 +5,7 @@
 fields:
 
     title:
-        label: Título
+        label: Title
         span: left
     slug:
         label: Slug
@@ -14,15 +14,21 @@ fields:
             field: title
             type: slug
     attachments:
-        label: Imagens
+        label: Images
         type: fileupload
         span: left
     featured:
         label: Produto em Destaque (Aparece na Home page)
         span: left
         type: switch
-        on: Sim
-        off: Não 
+        on: Yes
+        off: No 
+    new_work:
+        label: New Work
+        span: right
+        type: switch
+        on: Yes
+        off: No 
 tabs:
     fields:
         description:

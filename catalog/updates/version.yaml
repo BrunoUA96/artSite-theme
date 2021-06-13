@@ -1,3 +1,6 @@
 1.0.1: 
   - Run table migrations
   - create_products_table.php
+1.0.2:
+  - Add New Works column
+  - add_column_new_works_products_table.php
